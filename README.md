@@ -4,3 +4,4 @@
 ## Diagrams
 ### ER Diagram
 ![ER](./diagrams/ER.PNG)
+### Attribute
