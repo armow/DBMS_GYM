@@ -28,3 +28,12 @@
   * BNAME:分店名稱
   * AREA:分店所在的區域
   * OPENHOUR:分店的營業時間
+#### Relationship
+* trainer **INSTRUCT** member:每個教練可以指導很多學員，但每個學員一定要有教練且只能有一個
+* member **ENROLL** proposal:每個學員一定要報名方案且只能報名一種，但每種方案可以有很多學員報名且一定有人報名
+* member **INQUIRE** proposal:每個學員一定會詢問很多個方案，而且每個方案一定也有很多個學員詢問
+* member **APPLY** course:每個學員可能會報名很多個課程，但不一定每個人都會報名課程，每個課程一定會有很多學員報名
+* branch **HAVE** course:每個分店一定擁有很多個課程，而且每種課程一定被很多個分店擁有
+* trainer **TEACH** course:每個教練可能教很多個課程，但不一定每個教練都有教，但每個課程一定有教練教學
+* member **BELONG** branch:每個學員一定屬於每個分店，而且每個分店一定有很多個學員
+* trainerer **BELONG** branch:每個教練一定屬於每個分店，而且每個分店一定有很多個教練
