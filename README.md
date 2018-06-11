@@ -70,9 +70,9 @@ update
 * 可以透過簡單的輸入來達到某些SQL指令
 #### Button Input Example
 * Basic queries:
- * select
- * delete
- * insert
- * update
+  * select
+  * delete
+  * insert
+  * update
 * Nested queries:
 * Aggregate functions:
