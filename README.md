@@ -41,6 +41,6 @@
 
 ## Usage
 這個系統主要分兩種操作方式，SQL以及Button
-###SQL
+### SQL
 * 提供直接輸入sql指令來操作資料庫
-###Button
+### Button
