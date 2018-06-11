@@ -68,7 +68,11 @@ update
   3. 刪除資料
   4. 更新資料
 * 可以透過簡單的輸入來達到某些SQL指令
-#### SQL Input Example
+#### Button Input Example
 * Basic queries:
+ * select
+ * delete
+ * insert
+ * update
 * Nested queries:
 * Aggregate functions:
