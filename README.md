@@ -46,6 +46,9 @@
 ![SQL](./diagrams/SQL.PNG)
 #### SQL Input Example
 * Basic queries:
+```sh
+select * from member
+```
 * Nested queries:
 * Aggregate functions:
 ### Button
