@@ -38,3 +38,8 @@
 * member **BELONG** branch:每個學員一定屬於某個分店，而且每個分店一定有很多個學員
 * trainerer **BELONG** branch:每個教練一定屬於某個分店，而且每個分店一定有很多個教練
 ### Relation Schema
+
+## Usage
+這個系統主要分兩種操作方式，SQL以及Button
+* **SQL**
+* **B**
