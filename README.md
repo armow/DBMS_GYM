@@ -48,7 +48,23 @@
 * Basic queries:
 ```sh
 select * from member
+delete from member where MNUMBER='1'
+insert into member values ()
+update
 ```
 * Nested queries:
+```sh
+
+```
 * Aggregate functions:
+```sh
+
+```
 ### Button
+* 提供較為介面化的按鈕式操作
+* 共有4種操作動作:
+ 1. 新增資料
+ 2. 搜尋資料
+ 3. 刪除資料
+ 4. 更新資料
+* 可以透過簡單的輸入來達到某些SQL指令
