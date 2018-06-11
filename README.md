@@ -80,6 +80,6 @@ update
 * Aggregate functions:
   * count.sum.max.min.avg:在資料區選擇COUNT或SUM或MAX或MIN或AVG，底下輸入要計算的資料後按check，如果要選擇條件，底下輸入需輸入(==.>=等等)
   * having:在條件區選擇HAVING後按check，在選擇要的條件，底下輸入需輸入(==.>=等等)
-如果輸入的資料是attribute不用加單引號(ex:MNUMBER)，其他則需要(ex:'陳曉明')
+##### 如果輸入的資料是attribute不用加單引號(ex:MNUMBER)，其他則需要(ex:'陳曉明')
 ### Result
 只有搜尋資料會顯示結果，新增刪除更新資料皆不會，但是都會顯示使用者點選完的指令
