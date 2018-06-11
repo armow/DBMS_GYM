@@ -45,4 +45,7 @@
 * 提供直接輸入SQL指令來操作資料庫
 ![SQL](./diagrams/SQL.PNG)
 #### SQL Input Example
+* Basic queries:
+* Nested queries:
+* Aggregate functions:
 ### Button
