@@ -70,9 +70,9 @@ update
 * 可以透過簡單的輸入來達到某些SQL指令
 #### Button Input Example
 * Basic queries:
-  * select
-  * delete
-  * insert
-  * update
+  * select:選擇要找的表格後按check，要找的資料選擇好即按check，如要同時查詢多個資料，每選一個就按check
+  * delete:選擇要找的表格後按check，然後在條件區選擇要的資料，底下即輸入條件(ex:選擇MUNMBER輸入'15')後按check，如要同時選擇多個條件，每選好輸入好一個就按check
+  * insert:選擇要找的表格後按check，然後在資料區選擇要的資料，底下即輸入內容(ex:選擇MUNMBER輸入'15')後按check，重複操作要輸入每個資料
+  * update:選擇要找的表格後按check，然後在資料區選擇輸入要改變的資料，在條件區選擇輸入要找的條件
 * Nested queries:
 * Aggregate functions:
