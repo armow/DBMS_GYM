@@ -49,16 +49,24 @@
 ```sh
 select * from member
 delete from member where MNUMBER='1'
-insert into member values ()
-update
+insert into member values ('16','彭大名','0955555555','25','5','嘗試看看')
+update member set TNO='1' where MNUMBER='3'
 ```
 * Nested queries:
 ```sh
-
+select * from member where TNO in (1,2,3)
+select * from member where TNO not in (1,2,3)
+select MNAME from member where exists(select * from trainer where TNUMBER='1')
+select MNAME from member where not exists(select * from trainer where TNUMBER='1')
 ```
 * Aggregate functions:
 ```sh
-
+select count(PNAME) from proposal
+select sum(PEOPLELIMIT) from course 
+select max(PRICE) from proposal 
+select min(PRICE) from proposal 
+select avg(PEOPLELIMIT) from course 
+select TNUMBER,EXPERIENCE from trainer having EXPERIENCE>5
 ```
 ### Button
 * 提供較為介面化的按鈕式操作
