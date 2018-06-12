@@ -78,16 +78,20 @@ select TNUMBER,EXPERIENCE from trainer having EXPERIENCE>5
 * 可以透過簡單的輸入來達到某些SQL指令
 #### Button Input Example
 * Basic queries:
-  * select:選擇要的表格後按check，要找的資料選擇好即按check，如要同時查詢多個資料，每選一個就按check
+  * select:選擇要的表格後按check，要找的資料選擇好即按check，如要同時查詢多個資料，每選一個就按check，在條件區選擇要的資料，底下即輸入條件(ex:選擇MUNMBER輸入'15')後按check，如要同時選擇多個條件，每選好輸入好一個就按check
+  ![select](./diagrams/select.PNG)
   * delete:選擇要的表格後按check，在條件區選擇要的資料，底下即輸入條件(ex:選擇MUNMBER輸入'15')後按check，如要同時選擇多個條件，每選好輸入好一個就按check
+  ![delete](./diagrams/delete.PNG)
   * insert:選擇要的表格後按check，在資料區選擇要的資料，底下即輸入內容(ex:選擇MUNMBER輸入'15')後按check，依序操作要輸入的每個資料
-  * update:選擇要的表格後按check，在資料區選擇輸入要改變的資料，在條件區選擇輸入要找的條件
+  ![insert](./diagrams/insert.PNG)
+  * update:選擇要的表格後按check，在資料區選擇輸入要改變的資料後按check，在條件區選擇輸入要的條件後按check
+  ![update](./diagrams/update.PNG)
 * Nested queries:
   * in.not in:在條件區選擇IN或NOT IN，在底下輸入要的資料後按check，然後一樣再底下輸入要找的條件
   * exists.not exists:在條件區選擇EXISTS或NOT EXISTS後按check，再來依照select方法
 * Aggregate functions:
   * count.sum.max.min.avg:在資料區選擇COUNT或SUM或MAX或MIN或AVG，底下輸入要計算的資料後按check，如果要選擇條件，底下輸入需輸入(==.>=等等)
   * having:在條件區選擇HAVING後按check，在選擇要的條件，底下輸入需輸入(==.>=等等)
-####  p.s.如果輸入的資料是attribute不用加單引號(ex:MNUMBER)，其他則需要(ex:'陳曉明')
+####  p.s.在條件區，如果輸入的資料是attribute不用加單引號(ex:MNUMBER)，其他則需要(ex:'陳曉明')
 ### Result
 只有搜尋資料會顯示結果，新增刪除更新資料皆不會，但是都會顯示使用者點選完的指令
