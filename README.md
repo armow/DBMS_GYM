@@ -12,8 +12,8 @@
   * MNAME:學員的名字
   * PHONE:學員的手機
   * AGE:學員的年齡
-  * TNO:教練的編號
-  * PNAM:方案的名稱
+  * TNO:學員的教練編號
+  * PNAM:學員使用的方案名稱
 * **trainer**:健身房的教練
   * TNUMBER:教練的編號
   * TNAME:教練的名字
@@ -28,7 +28,7 @@
   * CNUMBER:課程的編號
   * CNAME:課程的名稱
   * PEOPLELIMIT:課程的人數上限
-  * TNUM:教練的編號
+  * TNUM:課程的教練編號
 * **branch**:健身房的分店
   * BNAME:分店名稱
   * AREA:分店所在的區域
