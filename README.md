@@ -41,7 +41,7 @@
 * branch **HAVE** course:每個分店一定擁有很多個課程，而且每種課程一定被很多個分店擁有
 * trainer **TEACH** course:每個教練可能教很多個課程，但不一定每個教練都有教，但每個課程一定有教練教學
 * member **BELONG** branch:每個學員一定屬於某個分店，而且每個分店一定有很多個學員
-* trainerer **BELONG** branch:每個教練一定屬於某個分店，而且每個分店一定有很多個教練
+* trainer **BELONG** branch:每個教練一定屬於某個分店，而且每個分店一定有很多個教練
 ### Relation Schema
 ![relation](./diagrams/relation.PNG)
 ## Usage
