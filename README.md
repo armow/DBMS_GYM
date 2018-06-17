@@ -3,7 +3,8 @@
 ## Environment
   * C#(MySQL Server先啟動，再將資料庫連線，才能使用)
   * MySQL[需下載MySQL Workbench來管理資料庫內容](https://dev.mysql.com/downloads/installer/)
-  ### Setup
+  ### Run
+    * 打開MySQL Shell
 ## Diagrams
 ### ER Diagram
 ![ER](./diagrams/ER.PNG)
