@@ -2,7 +2,7 @@
 基於MySQL的資料庫查詢系統，用來管理健身房
 ## Environment
   * C#
-  * MySQL
+  * MySQL[需下載MySQL Workbench來管理資料庫內容](https://dev.mysql.com/downloads/installer/)
 ## Diagrams
 ### ER Diagram
 ![ER](./diagrams/ER.PNG)
