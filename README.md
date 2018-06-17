@@ -4,7 +4,7 @@
   * C#(MySQL Server先啟動，再將資料庫連線，才能使用)
   * MySQL[需下載MySQL Workbench來管理資料庫內容](https://dev.mysql.com/downloads/installer/)
   ### Run
-    * 打開MySQL Shell
+     打開MySQL Shell啟動Server->再將Workbench連線->把資料庫內容專案放入C:/ProgramData/MySQL/MySQL Server 8.0/Data裡
 ## Diagrams
 ### ER Diagram
 ![ER](./diagrams/ER.PNG)
